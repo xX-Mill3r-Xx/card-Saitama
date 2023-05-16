@@ -6,7 +6,7 @@ Este repositório contém um projeto relacionado ao anime "One Punch Man", onde 
 
 ![Preview do Projeto Concluído](screen_shots/captura_desktop.png)
 
-Você pode conferir a versão final do projeto em funcionamento [aqui](link para a visualização online do projeto).
+Você pode conferir a versão final do projeto em funcionamento [aqui](https://xx-mill3r-xx.github.io/card-Saitama/).
 
 ## Tecnologias Utilizadas
 
