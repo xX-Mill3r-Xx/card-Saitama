@@ -1,0 +1,99 @@
+:root {
+    /*Principais*/
+    --dark: #452e3c;
+    --red: #ff3d5a;
+    --orange: #ffb969;
+    --yellow: #eaf27e;
+    --green: #3b8c88;
+
+    /*Secundarias*/
+    --s_red: #db3026;
+    --s_orange: #e88a25;
+    --s_yellow: #f9e14b;
+    --s_begie: #efed89;
+    --s_green: #7abf66;
+
+    /*neutras*/
+    --black: #000000;
+    --white: #ffffff;
+    --disable: #666666;
+}
+
+body {
+    background: var(--white);
+    background-image: url("../img/R.png");
+    background-repeat: repeat-x;
+    padding-top: 30px;
+}
+
+.main-content {
+    max-width: 100vw;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    max-width: 100%;
+    width: 300px;
+    background-color: var(--s_red);
+    border-radius: 9px;
+    border: 1px solid var(--dark);
+    box-shadow: 3px 3px 3px var(--dark);
+}
+
+.content img {
+    max-width: 100%;
+    border-radius: 9px 9px 0 0;
+}
+
+.text {
+    font-size: 12px;
+    margin: 3px;
+    padding: 3px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: var(--s_yellow);
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--disable);
+    font-size: 1.2rem;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    background-color: var(--s_begie);
+    border: none;
+    border-radius: 9px;
+    max-width: 100%;
+    width: 270px;
+    height: 45px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: var(--s_orange);
+    color: var(--white)
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 0.6em;
+}
+
+footer a{
+    color: var(--black);
+}
+
+footer a:hover{
+    cursor: pointer;
+    color: #ff3d5a;
+}

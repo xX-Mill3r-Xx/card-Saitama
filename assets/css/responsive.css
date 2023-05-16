@@ -1,0 +1,10 @@
+@media (max-width: 375px) {
+    .content {
+      width: 100%;
+    }
+  
+    .button {
+      width: 100%;
+    }
+  }
+  
